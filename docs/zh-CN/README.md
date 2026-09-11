@@ -131,6 +131,10 @@ docker compose up -d
 
 运行后，可以在浏览器上访问 [http://localhost/install](http://localhost/install) 进入 Dify 控制台并开始初始化安装操作。
 
+### 本地源码开发
+
+如需使用 Python 虚拟环境运行后端、修改前后端源码，请参阅[本地开发使用说明：Python 虚拟环境](LOCAL_DEVELOPMENT.md)。该说明包含 Windows + WSL2 环境准备、依赖安装、服务启停和常见问题；数据库等依赖服务通过 Docker 运行。
+
 ### 高级设置
 
 如需自定义配置、可观测性和部署选项，请参阅[高级设置](ADVANCED_SETUP.md)。
